@@ -1,0 +1,25 @@
+create database vitcampus;
+
+use vitcampus;
+
+create table CSE(
+ sid int8,
+ sname varchar(50),
+ smarks int1
+ );
+
+create table Mech(
+ sid int8,
+ sname varchar(50),
+ smarks int1
+ );
+
+create table EEE(
+ sid int8,
+ sname varchar(50),
+ smarks int1
+ );
+ 
+show tables from vitcampus;
+ 
+insert into cse values (242, 'Ankit',89);
