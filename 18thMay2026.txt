@@ -82,7 +82,6 @@ select * from emp;
 savepoint time15;
 
 insert into emp values (102);
-
 savepoint time16;
 
 select * from emp;
