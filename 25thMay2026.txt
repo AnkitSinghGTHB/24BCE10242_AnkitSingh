@@ -1,0 +1,15 @@
+show database
+db
+use vit
+db.createCollection('Employee')
+db.Employee.insert({
+  name:"Rahul",
+  mark:78,
+  location:"MP"
+})
+db.Employee.insert({
+  name:"Rohan",
+  mark:87,
+  location:"Blr"
+})
+db.Employee.find()
